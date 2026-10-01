@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evelyn & Julian // Shades of Brown x Green Wedding Experience</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome & AOS Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="master-container">
+        
+        <!-- HERO SECTION: FULL BLEED CINEMATIC ORGANIC MASK -->
+        <header class="hero-cinematic" data-aos="fade" data-aos-duration="1200">
+            <div class="hero-bg-parallax"></div>
+            <div class="hero-overlay-gradient"></div>
+            
+            <div class="hero-content-wrapper" data-aos="fade-up" data-aos-delay="300">
+                <span class="micro-eyebrow">// SHADES OF BROWN X GREEN</span>
+                <h1 class="hero-couple-title">Evelyn &amp; Julian</h1>
+                <div class="hero-meta-capsule">
+                    <span>Oct 24, 2026</span>
+                    <span class="dot-sep">•</span>
+                    <span>Antipolo, Rizal</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- DYNAMIC GUEST NAME BANNER -->
+        <div class="guest-identity-banner" data-aos="zoom-in" data-aos-duration="800">
+            <span class="eyebrow-sub">SECURE INVITATION MANIFEST</span>
+            <h3 id="guestNameDisplay">Authenticating Guest...</h3>
+        </div>
+
+        <!-- SECTION 1: FLUID PHOTO COLLAGE (NO BOXES / ORGANIC OVERLAPS) -->
+        <section class="section-fluid-gallery">
+            <div class="container-inner">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-tag">// 01. VISUAL ESSENCE</span>
+                    <h2 class="section-title">Rooted in Earth &amp; Elegance</h2>
+                </div>
+
+                <div class="organic-photo-grid">
+                    <div class="floating-img-wrap img-large" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop" alt="Editorial Bride and Groom">
+                        <div class="img-caption-float">MOMENTUM // 01</div>
+                    </div>
+                    <div class="floating-img-wrap img-small" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop" alt="Earthy Florals">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: LIVE DEPARTURE COUNTDOWN -->
+        <section class="section-countdown alt-motif-bg" data-aos="fade-up">
+            <div class="container-inner text-center">
+                <span class="section-tag">// 02. TEMPORAL METRICS</span>
+                <h2 class="section-title">Countdown to Takeoff</h2>
+                
+                <div class="countdown-minimal-grid">
+                    <div class="time-block" data-aos="zoom-in" data-aos-delay="100">
+                        <span class="time-num" id="daysVal">--</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-block" data-aos="zoom-in" data-aos-delay="200">
+                        <span class="time-num" id="hoursVal">--</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-block" data-aos="zoom-in" data-aos-delay="300">
+                        <span class="time-num" id="minsVal">--</span>
+                        <span class="time-label">Mins</span>
+                    </div>
+                    <div class="time-block" data-aos="zoom-in" data-aos-delay="400">
+                        <span class="time-num" id="secsVal">--</span>
+                        <span class="time-label">Secs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: WAYPOINTS & MOTIF PALETTE -->
+        <section class="section-waypoints">
+            <div class="container-inner">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-tag">// 03. WAYPOINT CIRCUIT</span>
+                    <h2 class="section-title">The Coordinates</h2>
+                </div>
+
+                <div class="waypoints-dual-layout">
+                    <div class="waypoint-card" data-aos="fade-right" data-aos-duration="900">
+                        <span class="wpt-code">WPT-01 // CEREMONY</span>
+                        <h3 id="venueNameText">Pinto Art Sanctuary Chapel</h3>
+                        <p id="venueAddressText">1 Sierra Madre St, Grand Heights Subd, Antipolo, Rizal</p>
+                        <div class="wpt-time"><i class="far fa-clock"></i> 3:30 PM Sharp</div>
+                        <a id="mapLinkBtn" href="https://maps.google.com" target="_blank" class="link-arrow">Open Google Maps ↗</a>
+                    </div>
+
+                    <div class="waypoint-card" data-aos="fade-left" data-aos-duration="900">
+                        <span class="wpt-code">WPT-02 // RECEPTION</span>
+                        <h3>The Upper Garden Pavilion</h3>
+                        <p>Grand Heights Subd, Antipolo, Rizal (Adjacent to Chapel grounds)</p>
+                        <div class="wpt-time"><i class="far fa-clock"></i> 6:00 PM Onwards</div>
+                        <span class="link-arrow disabled-link">Dinner &amp; Festivities</span>
+                    </div>
+                </div>
+
+                <!-- Motif Color Swatches -->
+                <div class="motif-palette-showcase text-center mt-5" data-aos="fade-up">
+                    <span class="section-tag">// 04. DRESS CODE &amp; MOTIF</span>
+                    <p class="motif-desc">Shades of Brown x Shades of Green Formal Attire</p>
+                    <div class="color-chips-row">
+                        <div class="chip" style="background-color: #231815;" title="Espresso Brown"></div>
+                        <div class="chip" style="background-color: #C4AD9A;" title="Champagne Taupe"></div>
+                        <div class="chip" style="background-color: #424A3B;" title="Earthy Olive"></div>
+                        <div class="chip" style="background-color: #7C8573;" title="Soft Moss"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: IMMERSIVE ASYMMETRICAL PHOTO MOSAIC -->
+        <section class="section-mosaic alt-motif-bg">
+            <div class="container-inner">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-tag">// 05. GALLERY ARCHIVE</span>
+                    <h2 class="section-title">Selected Frames</h2>
+                </div>
+
+                <div class="asym-mosaic-grid">
+                    <div class="mosaic-tile tile-tall" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=800&auto=format&fit=crop" alt="Detail Shot">
+                    </div>
+                    <div class="mosaic-tile tile-normal" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="150">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=800&auto=format&fit=crop" alt="Couple Moment">
+                    </div>
+                    <div class="mosaic-tile tile-wide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1000&auto=format&fit=crop" alt="Scenic Atmosphere">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: ADVANCED RSVP MANIFEST ENGINE -->
+        <section class="section-rsvp-manifest" id="rsvpSection">
+            <div class="container-inner max-width-600">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-tag">// 06. CONFIRMATION ENGINE</span>
+                    <h2 class="section-title text-light">Lock In Boarding Pass</h2>
+                    <p class="rsvp-subtext">Please submit your response before September 15, 2026.</p>
+                </div>
+
+                <form id="rsvpForm" class="manifest-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="field-group">
+                        <label>Attendance Status</label>
+                        <select id="rsvpSelectStatus" required>
+                            <option value="" disabled selected>Select your response...</option>
+                            <option value="attending">🟢 Joyfully Accept (YES)</option>
+                            <option value="declined">🔴 Regretfully Decline (NO)</option>
+                        </select>
+                    </div>
+
+                    <div class="field-group" id="plusOneContainer" style="display: none;">
+                        <label>Additional +1 Guests Allowed</label>
+                        <input type="number" id="plusOneCountInput" min="0" max="3" value="0">
+                    </div>
+
+                    <button type="submit" class="btn-manifest-submit">Transmit RSVP Response ↗</button>
+                </form>
+                <div id="rsvpStatusMessage" class="manifest-status-msg"></div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="master-footer text-center">
+            <p>Evelyn &amp; Julian • Flight 1024 • Powered by Event HQ</p>
+        </footer>
+
+    </div>
+
+    <!-- External Animation Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom Application Script -->
+    <script src="script.js"></script>
+</body>
+</html>
